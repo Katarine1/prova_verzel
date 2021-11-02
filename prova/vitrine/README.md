@@ -1,51 +1,51 @@
-Somente para documentação:
+<h1>Somente para documentação:</h1>
 
-Criando o projeto:
+<h3>Criando o projeto:</h3>
 
-Abra o caminho no CMD: ./prova/
+<h2>Abra o caminho no CMD: ./prova/</h2>
 ### npx react-native init vitrine
 
-Selecione o projeto:
+<h2>Selecione o projeto:</h2>
 ### cd vitrine
 
-Start Metro
+<h2>Start Metro</h2>
 ### npx react-native start
 
-Via Aplicação
+<h2>Via Aplicação</h2>
 ### npx react-native run-android
 
 
-Instalações de Pacotes:
+<h1>Instalações de Pacotes:</h1>
 
-1) react-navigation/native: 
+<h3>1) react-navigation/native:</h3> 
 ### npm install @react-navigation/native
 
-2) react-navigation/native-stack:
+<h3>2) react-navigation/native-stack:</h3> 
 ### npm install @react-navigation/native-stack
 
-3) react-native-screens:
+<h3>3) react-native-screens:</h3> 
 ### npm install react-native-screens 
 
-4) react-native-safe-area-context:
+<h3>4) react-native-safe-area-context:</h3> 
 ### react-native-safe-area-context
 
-5) Axios:
+<h3>5) Axios:</h3> 
 ### npm install --save axios
 
-6) React Native Image Picker
+<h3>6) React Native Image Picker</h3> 
 ### npm install --save react-native-image-picker
 
 
-Casos Importantes:
+<h1>Casos Importantes:</h1>
 
-Importante : Instalar pacotes para ter todas as dependências:
-Abra o caminho no CMD: ./prova/vitrine/
+<h3>Importante : Instalar pacotes para ter todas as dependências:</h3>
+<p>Abra o caminho no CMD: ./prova/vitrine/</p>
 ### npm Install
 
-Importante : Caso ocorra algum erro, reinstalar pacotes:
-Abra o caminho no CMD: ./prova/vitrine/
+<h3>Importante : Caso ocorra algum erro, reinstalar pacotes:</h3>
+<p>Abra o caminho no CMD: ./prova/vitrine/</p>
 ### npm Install
 
-Executar Servidor Antes de executar o app:
-Abra o caminho no CMD: cd ./prova/server/
+<h3>Executar Servidor Antes de executar o app:</h3>
+<p>Abra o caminho no CMD: cd ./prova/server/</p>
 ### node index.js
