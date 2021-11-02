@@ -1,55 +1,55 @@
 
-Instalaçõs de pacotes:
+<h1>Instalaçõs de pacotes:</h1>
 
-1) Express:
+<h3>1) Express:</h3>
 ### npm install --save express
 
-2) MySql Banco de Dados:
+<h3>2) MySql Banco de Dados:</h3>
 ### npm install --save mysql
 
-3) Cors:
+<h3>3) Cors:</h3>
 ### npm install --save cors
 
-4) Express File Upload:
+<h3>4) Express File Upload:</h3>
 ### npm install --save express-fileupload
 
 
-5) Importante: 
-5.1) Criar uma Base de Dados no Banco de dados MySql chamada de "prova".
-5.2) O Sistema de Banco de dados utilizado foi o phpMyAdmin.
-5.3) Para realizar a conexão foi utilizado o XAMPP ( https://www.apachefriends.org/pt_br/index.html ).
+<h3>5) Importante:</h3> 
+<h4>5.1) Criar uma Base de Dados no Banco de dados MySql chamada de "prova".</h4>
+<h4>5.2) O Sistema de Banco de dados utilizado foi o phpMyAdmin.</h4>
+<h4>5.3) Para realizar a conexão foi utilizado o XAMPP ( https://www.apachefriends.org/pt_br/index.html ).</h4>
 
 
-6) Abra o Arquivo ./server/index.js :
+<h3>6) Abra o Arquivo ./server/index.js :</h3>
 
-6.1) Importes: (Retirar Comentários de "tabUsuarios" e "tabCarros")
+<h3>6.1) Importes: (Retirar Comentários de "tabUsuarios" e "tabCarros")</h3>
 
-/** CRIA AS TABELAS - Retire o comentário caso elas não existam */
-const tabUsuarios = require('./model/tabela_usuarios');
-const tabCarros = require('./model/tabela_carros');
+<h4>/** CRIA AS TABELAS - Retire o comentário caso elas não existam */<br/>
+const tabUsuarios = require('./model/tabela_usuarios');<br/>
+const tabCarros = require('./model/tabela_carros');</h4>
 
-6.2) Após executar a inicialização do servidor, essas tabelas serão criadas.
+<h3>6.2) Após executar a inicialização do servidor, essas tabelas serão criadas.</h3>
 
-6.3) Executar o servidor Node Js após a a retirada dos comentários no item 6.1:
+<h3>6.3) Executar o servidor Node Js após a a retirada dos comentários no item 6.1:</h3>
 ### node index.js
 
-6.3) Desconectar Servidor Node Js:
+<h3>6.3) Desconectar Servidor Node Js:</h3>
 ### ctrl + C
 
-6.4) Importes: (Colocar Comentários de "tabUsuarios" e "tabCarros")
+<h3>6.4) Importes: (Colocar Comentários de "tabUsuarios" e "tabCarros")</h3>
 
-/** CRIA AS TABELAS - Retire o comentário caso elas não existam */
-//const tabUsuarios = require('./model/tabela_usuarios');
-//const tabCarros = require('./model/tabela_carros');
+<h4>/** CRIA AS TABELAS - Retire o comentário caso elas não existam */<br/>
+//const tabUsuarios = require('./model/tabela_usuarios');<br/>
+//const tabCarros = require('./model/tabela_carros');</h4>
 
 
-Casos Importantes:
+<h2>Casos Importantes:</h2>
 
-Importante : Instalar pacotes para ter todas as dependências:
+<h4>Importante : Instalar pacotes para ter todas as dependências:</h4>
 ### npm Install
 
-Importante : Caso ocorra algum erro, reinstalar pacotes:
+<h4>Importante : Caso ocorra algum erro, reinstalar pacotes:</h4>
 ### npm Install
 
-Executar Servidor Antes de executar o app:
+<h4>Executar Servidor Antes de executar o app:</h4>
 ### node index.js
