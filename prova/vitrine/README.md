@@ -1,5 +1,8 @@
 <h1>App Testado em Andoid</h1>
-<h1>Somente para documentação:</h1>
+
+<h3>Teste Prático React Native</h3>
+
+<h2>Somente para documentação:</h2>
 
 <h3>Criando o projeto:</h3>
 
