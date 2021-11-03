@@ -42,6 +42,15 @@
 
 <h1>Casos Importantes:</h1>
 
+<h3>Importante: Trocar o caminho da URL nos seguintes arquivos:</h3>
+<p>./prova/vitrine/src/urls/</p>
+
+<p>Arquivos:</p>
+<p>url_imagem.js</p>
+<p>url_servidor.js</p>
+
+<p>const End = 'http://localhost:'</p>
+
 <h3>Importante : Instalar pacotes para ter todas as dependências:</h3>
 <p>Abra o caminho no CMD: ./prova/vitrine/</p>
 ### npm Install
