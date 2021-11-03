@@ -45,6 +45,15 @@ const tabCarros = require('./model/tabela_carros');</h4>
 
 <h2>Casos Importantes:</h2>
 
+<h3>Importante: Trocar o caminho da URL nos seguintes arquivos:</h3>
+<p>./prova/vitrine/src/urls/</p>
+
+<p>Arquivos:</p>
+
+<p>url_imagem.js</p>
+<p>url_servidor.js</p>
+<p>const End = 'http://localhost:'</p>
+
 <h4>Importante : Instalar pacotes para ter todas as dependências:</h4>
 ### npm Install
 
