@@ -46,7 +46,7 @@ const tabCarros = require('./model/tabela_carros');</h4>
 <h2>Casos Importantes:</h2>
 
 <h3>Importante: Trocar o caminho da URL nos seguintes arquivos:</h3>
-<p>./prova/vitrine/src/urls/</p>
+<p>./prova/server/urls/</p>
 
 <p>Arquivos:</p>
 
